@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.callout {
+  position: fixed;
+  bottom: 650px;
+  right: 50px;
+  margin-left: 20px;
+  max-width: 600px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
+</style>
+</head>
+<body>
+
+<h2>Callout Messages</h2>
+
+<p>Some text. sldcimp3ej8-t09480c2w04kuc-t2w0cku4-t20u34c0uxq-34ucj-034xu-c tuj-3cr-x03q409ruj34-0cruxj-30ucr0x3-c0rujx-0e03ucf</p>
+<p>Some more text.</p>
+<p>Even more text.</p>
+    
+<h2>Button as a Links</h2>
+
+<p>Click the button to go to the HTML tutorial.</p>
+
+<button onclick="document.location='https://www.w3schools.com/'">HTML Tutorial</button>
+    
+<div class="callout">
+  <div class="callout-header">Callout Header</div>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  <div class="callout-container">
+    <p><b>w3schools</b> website can teach you how to build a web page.<a href="https://www.w3schools.com/" target="_blank">Learn more</a> or close "x" it if it is in your way.</p>
+  </div>
+</div>
+
+</body>
+</html>
